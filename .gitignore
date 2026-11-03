@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Test / build output
+coverage/
+dist/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
